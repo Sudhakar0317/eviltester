@@ -4,18 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c535f2d2-3b79-41bf-8e2d-a87c7ac6d0fe" name="Changes" comment="First commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/BasicHTML.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/ValidationMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Tests/BasicHTMLForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Tests/SampleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Tests/TestRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/Features/Test.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="c535f2d2-3b79-41bf-8e2d-a87c7ac6d0fe" name="Changes" comment="second  commit">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/HTML5page.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/BasicHTML.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/BasicHTML.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Tests/BasicHTMLForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Tests/StepDef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Tests/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Tests/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/Features/Test.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/Features/Test.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,13 +51,34 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "dart.analysis.tool.window.visible": "false",
     "last_opened_file_path": "C:/Users/user/IdeaProjects/eviltester",
-    "settings.editor.selected.configurable": "gradle.compiler",
+    "settings.editor.selected.configurable": "configurable.group.build",
     "show.migrate.to.gradle.popup": "false"
   }
 }]]></component>
   <component name="RunManager">
+    <configuration name="Scenario: HTML5 Form Elements Examples" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/resources/Features/Test.feature" />
+      <option name="GLUE" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="EvilTester" />
+      <option name="NAME_FILTER" value="^HTML5 Form Elements Examples$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^HTML5 Form Elements Examples$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: HTML5 Form Elements Examples" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Scenario: first Basic HTML Code" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/resources/Features/Test.feature" />
@@ -96,6 +113,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: HTML5 Form Elements Examples" />
         <item itemvalue="Cucumber Java.Scenario: first Basic HTML Code" />
       </list>
     </recent_temporary>
@@ -123,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1716288998793</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="second  commit">
+      <created>1716368078982</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1716368078982</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -140,7 +165,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="First commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="First commit" />
+    <MESSAGE value="second  commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="second  commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

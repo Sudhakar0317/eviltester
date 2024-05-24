@@ -9,7 +9,7 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(
         features = "Features",
         glue = "Tests"
-)
+        )
 public class TestRunner {
 
 }
