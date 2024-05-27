@@ -1,5 +1,6 @@
 package Tests;
 
+import AppManager.FileReader;
 import Pages.BasicHTML;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
@@ -8,7 +9,7 @@ import io.cucumber.java.en.When;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class StepDef {
+public class StepDef extends FileReader {
     public static  WebDriver driver = new ChromeDriver() ;
 
 
@@ -25,12 +26,16 @@ public class StepDef {
 
     BasicHTML basicHTML = new BasicHTML(driver);
     //HTML5page html5page = new HTML5page(driver);
+    FileReader file = new FileReader();
+
+    String url1 = file.getProperty("URL1");
 
 
     @Given("user login the  test url")
     public void user_login_the_test_url() {
         //driver = new ChromeDriver();
-        driver.get("https://testpages.eviltester.com/styled/basic-html-form-test.html");
+        driver.get(url1);
+       // driver.get("https://testpages.eviltester.com/styled/basic-html-form-test.html");
         driver.manage().window().maximize();
 
     }
